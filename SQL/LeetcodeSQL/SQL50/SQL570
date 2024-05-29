@@ -20,18 +20,6 @@ Output:
 SELECT
     managerId, COUNT(id) AS directReports
 FROM
-    Employee
-WHERE
-    managerId IS NOT NULL
-GROUP BY
-    managerId
-HAVING
-    COUNT(id) >= 5;
-
-
-SELECT
-    managerId, COUNT(id) AS directReports
-FROM
     Employee e
 INNER JOIN
     Employee e2
