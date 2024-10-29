@@ -6,5 +6,5 @@ print(s1)
 print(s[:5:1])
 # 省略开始位置start，省略不步长step
 print(s[:5:])
-
+print("hello word")
 
