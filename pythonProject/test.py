@@ -8,3 +8,4 @@ print(s[:5:1])
 print(s[:5:])
 print("hello word")
 
+# 1031
