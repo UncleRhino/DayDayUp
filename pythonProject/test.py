@@ -1,3 +1,5 @@
+import keyword
+
 s='HelloWord'
 # 切片操作
 s1=s[0:5:2]
@@ -8,4 +10,9 @@ print(s[:5:1])
 print(s[:5:])
 print("hello word")
 
-# 1031
+a=10
+print(a)
+
+b=5
+print(b)
+
