@@ -16,3 +16,13 @@ print(a)
 b=5
 print(b)
 
+
+print ("hello\nhello")
+
+a= "hello"
+b= "word"
+print ((a + "***" +b + "\n") *2)
+
+a= "hello"
+b= "word"
+print ('{} {}'.format(a,b))
