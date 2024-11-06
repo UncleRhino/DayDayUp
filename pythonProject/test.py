@@ -26,3 +26,32 @@ print ((a + "***" +b + "\n") *2)
 a= "hello"
 b= "word"
 print ('{} {}'.format(a,b))
+
+
+# 转化成整型 int（）
+st = '123'
+print (type (st))
+st2 = int (st)
+print (type(st2))
+
+# 转换为浮点型 float（）
+a = 123
+b = float (a)
+print (b)
+print (type(b))
+
+# input ()输入函数
+input('请输入：')
+print(23)
+
+# if嵌套 练习 公交车上车判断
+money = True
+sit = True
+if money:
+    print('请上车')
+    if sit:
+        print('你可以坐在座位上')
+    else:
+        print('请站着')
+else:
+    print('没有钱不能上车')
