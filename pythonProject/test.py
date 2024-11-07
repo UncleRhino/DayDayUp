@@ -55,3 +55,18 @@ if money:
         print('请站着')
 else:
     print('没有钱不能上车')
+
+
+# import random模块
+import random
+ni = int(input('请出拳：剪刀（0），石头（1），布（2）：'))
+com = random.randint (0,2)
+print (f'电脑的出拳{com}')
+
+if ((ni == 0) and (com == 2)) or ((ni == 1) and (com == 0)) or ((ni == 2) and (com ==1)):
+    print ('恭喜你，手气不错，赢了')
+elif ni == com:
+    print ('平局，要不再来一局')
+else:
+    print ('很遗憾你输了，洗洗手再来')
+
