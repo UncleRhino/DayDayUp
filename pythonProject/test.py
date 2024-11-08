@@ -70,3 +70,4 @@ elif ni == com:
 else:
     print ('很遗憾你输了，洗洗手再来')
 
+
