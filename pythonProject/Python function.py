@@ -86,3 +86,14 @@ print (func(1,2))
 a = lambda x:x**2
 print (a(10))
 
+import builtins
+print (dir(builtins))
+
+a = [1,2,3]
+b = ['a','b','c']
+print (list(zip(a,b)))
+
+# enumerate枚举：用于将一个可遍历的数据对象组合为一个索引序列，同时列出数据和数据下标，一般用在for循环当中。
+li = ['a','b','c','d']
+for i ,j in enumerate(li):
+    print(i,j)
