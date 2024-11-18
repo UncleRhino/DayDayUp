@@ -97,3 +97,4 @@ print (list(zip(a,b)))
 li = ['a','b','c','d']
 for i ,j in enumerate(li):
     print(i,j)
+
