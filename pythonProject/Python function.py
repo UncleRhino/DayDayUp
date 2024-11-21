@@ -116,3 +116,31 @@ def funa(n):
     print (sum)
 funa(3)
 
+# 用递归函数求斐波那契函数序列
+# def funa (n):
+#   if n <=1:
+#        return n
+#    else:
+#       return funa (n-1)+funa (n-2)
+# for i in range(1,11):
+#    list.append(funa(i))
+# print(list)
+
+# 闭包函数
+def outer(a):
+    n = 10
+    def inner():
+        n = 20
+        print ('inner',n+m)
+    return inner
+
+# 修改外部函数中的变量
+def outer (a):
+    def inner():
+        nonlocal a
+        a += 1
+        print(a)
+    return inner
+ot = outer(1)
+ot()
+
