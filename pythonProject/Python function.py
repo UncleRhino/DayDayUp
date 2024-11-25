@@ -144,3 +144,20 @@ def outer (a):
 ot = outer(1)
 ot()
 
+#回调函数
+def test(m,n):
+    if m ==2:
+        n()
+    else:
+        print('No')
+def one():
+    print('function1')
+
+def two():
+    print('function2')
+
+test(2,one)
+
+
+
+
