@@ -65,7 +65,7 @@
     "git-widget-placeholder": "PythonStudy"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Python args">
+  <component name="RunManager" selected="Python.Python function">
     <configuration name="Python args" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -201,8 +201,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Python args" />
         <item itemvalue="Python.Python function" />
+        <item itemvalue="Python.Python args" />
         <item itemvalue="Python.Python import" />
         <item itemvalue="Python.Python tuple" />
         <item itemvalue="Python.Python insert" />
