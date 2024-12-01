@@ -158,6 +158,20 @@ def two():
 
 test(2,one)
 
+# 创建对象的时候就已经拥有属性
+# init 具有初始化作用，当该类被实例化时就自动执行该函数。那么把初始化的属性放在这个方法里去。
+class Hero:
+    def __init__(self):
+        self.name = 'lulu'
+        self.hp = 200
+        self.at = 450
+    def move(self):
+        print(f'{self.name} moving on')
+    def attack(self):
+        print(f'{self.name} life {self.hp},then {self.at}')
+hero = Hero()
+hero.move
+hero.attack()
 
 
 
