@@ -173,5 +173,18 @@ hero = Hero()
 hero.move
 hero.attack()
 
+# __del__析构函数
 
+class Person:
+    def __init__(self):
+        print('我是init方法')
+    def __del__(self):
+        print('被销毁')
+xm = Person()
+print('last one')
+print('last one')
+print('last one')
+def funa():
+    print(123)
+funa()
 
