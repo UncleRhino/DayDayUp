@@ -198,3 +198,29 @@ class Person:
 xm = Person()
 del xm
 print('last one')
+
+class A:
+    def __str__(self):
+        print('init方法')
+    def __str__(self):
+        print('over')
+
+xm = Person()
+print(xm)
+
+class Human:
+    mind = 'haha'
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def work (self):
+        print(f'你的名字 {name}')
+obj = Human('ls',20)
+print (obj)
+
+
+
+
+
+
