@@ -131,7 +131,7 @@ def outer(a):
     n = 10
     def inner():
         n = 20
-        print ('inner',n+m)
+#  print ('inner',n+m)
     return inner
 
 # 修改外部函数中的变量
@@ -214,10 +214,6 @@ class Human:
         self.name = name
         self.age = age
 
-    def work (self):
-        print(f'你的名字 {name}')
-obj = Human('ls',20)
-print (obj)
 
 
 
