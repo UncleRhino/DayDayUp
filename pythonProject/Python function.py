@@ -214,6 +214,30 @@ class Human:
         self.name = name
         self.age = age
 
+# 是有方法
+class Classmate:
+    def __sing(self):
+        print('唱歌')
+# 定义公有方法
+    def dance(self):
+        print('跳舞')
+        self.__sing()
+# 创建对象
+pr = Classmate()
+'__sing'
+pr.dance()
+
+# 修改私有属性的值
+# 两种方法：
+# 1、对象名.属性名 = 数据 ———— 直接修改
+# 2、对象名.方法名（）———— 间接修改
+
+class Classmate:
+    def __init__(self):
+
+
+
+
 
 
 
