@@ -233,8 +233,22 @@ pr.dance()
 # 2、对象名.方法名（）———— 间接修改
 
 class Classmate:
-    def __init__(self):
+    _Classmate__age = None
 
+    def __init__(self):
+        self.name = 'lucy'
+        self.__age = 30
+# 获取私有属性的值
+    def get_age(self):
+        return self.__age
+# 设置私有属性的值
+    def get_age(self,new_age):
+        self.__age = new_age
+
+# 实例化对象
+p = Classmate
+# 强行获取私有属性
+ret =p.get_age()
 
 
 
