@@ -250,7 +250,36 @@ p = Classmate
 # 强行获取私有属性
 ret =p.get_age()
 
+# 继承的优点
+# 1、减少了重复代码
+# 2、增加了类的耦合性（模块音的关联程度）
+# 3、使得代码更加的规范化，合理化。
+# 继承格式
+# class 类名（父类名）：
+#      pass 什么执行语句都没有时，可写pass
 
+# 例1 不使用继承
+class Person:
+    def sing(self):
+        print ('唱')
+    def dance(self):
+        print ('跳')
+p = Person()
+p.sing()
+p.dance()
+
+# 例2 使用继承
+class God:
+    def sing(self):
+        print ('chang')
+    def dance(self):
+        print ('tiao')
+
+class Person(God):
+    pass
+p = Person()
+p.sing()
+p.dance()
 
 
 
