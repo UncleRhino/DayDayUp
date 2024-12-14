@@ -104,8 +104,41 @@ print (Classmate._age)
 print (pr._Classmate__sex)
 
 
+# 单继承
+class Person:
+    Sname = 'animal'
+    def __init__(self,name,sex,age):
+        self.name = name
+        self.sex = sex
+        self.age = age
+    def eat(self):
+        print (f'{self.name}在吃东西,性别是{self.sex},年龄是{self.age}')
 
+class Lucy(Person):
+    pass
+p1 = Lucy('lucy','f','18')
+p1.eat()
 
+# 继承的传递性
+class Animal:
+    def __init__(self,name):
+        self.name = name
+    def eat(self):
+        print ('--吃--')
+    def sleep(self):
+        print ('--睡--')
+class Dog(Animal):
+    def bark(self):
+        print (f'{self.name}汪汪叫！')
+
+class Black(Dog):
+    def fly(self):
+        print(f'{self.name}说：我会飞')
+
+black = Black('小黑')
+black.fly()
+black.bark()
+black.eat()
 
 
 
