@@ -140,6 +140,17 @@ black.fly()
 black.bark()
 black.eat()
 
+# 覆盖写--重写
+class Human(object):
+    def __init__(self):
+        self.name = zs
+    def eat(self):
+        print('%s在吃饭'% self.name)
+
+class zs(Human):
+    def eat(self):
+        print ('%s在慢慢地吃饭'% self.name)
+
 
 
 
