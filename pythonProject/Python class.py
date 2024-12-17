@@ -151,6 +151,80 @@ class zs(Human):
     def eat(self):
         print ('%s在慢慢地吃饭'% self.name)
 
+# 扩展父类的方法
+
+# 1、父类名.方法（self）
+class Animal(object):
+    def eat(self):
+        print ('吃东西')
+
+class Dog(Animal):
+    def eat(self):
+        Animal.eat(self)
+        print('啃骨头')
+
+black = Dog()
+black.eat()
+
+# 2、super（）.父类方法
+class Animal(object):
+    def __init__(self,name):
+        self.name = name
+    def bark(self):
+        print('%s在叫'% self.name)
+        print('haha')
+
+class Dog(Animal):
+    def bark(self):
+        super().bark()
+        print ('%s在汪汪叫'% self.name)
+
+white = Dog('小白')
+white.bark()
+
+# 继承父类构造方法，并进行改写
+class A:
+    def __init__(self,name):
+        self.name = name
+        print ('父类中的名字：',self.name)
+
+    def test(self):
+        print ('父类中的%s在哈哈笑'% self.name)
+
+class A2(A):
+    def __init__(self,name):
+        super().__init__(name)
+        self.name = name
+        print('子类中的名字：',self.name)
+
+    def test(self):
+        print ('子类中的%s在哈哈笑'% self.name)
+
+a2 = A2('lucy')
+a2.test()
+
+# 子类对象可以通过父类的公有方法间接访问到私有属性或私有方法
+class X:
+    def __init__(self):
+        self.num1 = 100
+        self.__num2 = 200
+    def __test(self):
+        print (f'私有方法{self.num1},{self.__num2}')
+    def test(self):
+        print('父类的公有方法d'% self.__num2)
+        self.__test()
+
+
+class Y(X):
+    def demo(self):
+        print(123)
+
+c = Y()
+print (c.num1)
+
+
+
+
 
 
 

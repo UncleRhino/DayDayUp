@@ -51,21 +51,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Python args.executor": "Run",
-    "Python.Python class.executor": "Run",
-    "Python.Python for.executor": "Run",
-    "Python.Python function.executor": "Run",
-    "Python.Python import.executor": "Run",
-    "Python.Python insert.executor": "Run",
-    "Python.Python tuple.executor": "Run",
-    "Python.Python while.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "PythonStudy"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Python args.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python import.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python insert.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PythonStudy&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.Python class">
     <configuration name="Python args" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
