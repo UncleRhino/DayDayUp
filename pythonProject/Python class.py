@@ -222,6 +222,23 @@ class Y(X):
 c = Y()
 print (c.num1)
 
+class A:
+    def play(self):
+        print('这是儿子')
+
+class B:
+    def play(self):
+        print('这是女儿')
+
+class C(A,B):
+    pass
+c = C()
+c.play()
+print(C.__mro__)
+
+
+
+
 
 
 
