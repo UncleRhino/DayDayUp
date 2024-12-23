@@ -59,14 +59,15 @@
     "Python.Python function.executor": "Run",
     "Python.Python import.executor": "Run",
     "Python.Python insert.executor": "Run",
+    "Python.Python robot.executor": "Run",
     "Python.Python tuple.executor": "Run",
     "Python.Python while.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "PythonStudy"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Python class">
+  <component name="RunManager" selected="Python.Python robot">
     <configuration name="Python args" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -155,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python robot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,7 +169,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python tuple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python robot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Python robot" />
         <item itemvalue="Python.Python class" />
         <item itemvalue="Python.Python function" />
         <item itemvalue="Python.Python args" />
         <item itemvalue="Python.Python import" />
-        <item itemvalue="Python.Python tuple" />
       </list>
     </recent_temporary>
   </component>
