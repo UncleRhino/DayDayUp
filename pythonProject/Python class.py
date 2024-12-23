@@ -231,10 +231,14 @@ class B:
         print('这是女儿')
 
 class C(A,B):
-    pass
+    def play(self):
+       # A.play(self)
+        super().play()
+        print('就是这样')
+
 c = C()
 c.play()
-print(C.__mro__)
+
 
 
 
